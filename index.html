@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Expenses chart component</title>
+
+</head>
+<body>
+
+  <main class="container">
+    <div class="balance">
+      <div class="balanceAmount">
+        <p>My balance</p>
+        <h1>$921.48</h1>
+      </div>
+      <div class="circles">
+        <img src="/images/logo.svg" alt="2 circles intertwined">
+      </div>
+    </div>
+
+    <div class="chartContainer">
+      <div class="title">
+        <h2>Spending - Last 7 days</h2>
+      </div>
+
+      <div class="chart">
+        <div class="bar barwidth">
+          <div class="bar1 bars" id="bar1">
+            <p id="monValue" class="activeHover"></p>
+          </div>
+          <p>mon</p>
+        </div>
+        <div class="bar barwidth">
+          <div class="bar2 bars" id="bar2">
+            <p id="tueValue" class="activeHover"></p>
+          </div>
+          <p>tue</p>
+        </div>
+        <div class="bar barwidth">
+          <div class="bar3 bars" id="bar3">
+            <p id="wedValue" class="activeHover"></p>
+          </div>
+          <p>wed</p>
+        </div>
+        <div class="bar barwidth">
+          <div class="bar4 bars" id="bar4">
+            <p id="thuValue" class="activeHover"></p>
+          </div>
+          <p>thu</p>
+        </div>
+        <div class="bar barwidth">
+          <div class="bar5 bars" id="bar5">
+            <p id="friValue" class="activeHover"></p>
+          </div>
+          <p>fri</p>
+        </div>
+        <div class="bar barwidth">
+          <div class="bar6 bars" id="bar6">
+            <p id="satValue" class="activeHover"></p>
+          </div>
+          <p>sat</p>
+        </div>
+        <div class="bar barwidth">
+          <div class="bar7 bars" id="bar7">
+            <p id="sunValue" class="activeHover"></p>
+          </div>
+          <p>sun</p>
+        </div>
+      </div>
+
+      <div class="chartAmounts">
+        <div class="total">
+          <p>Total this month</p>
+          <h2 id="total">$100</h2>
+        </div>
+        <div class="prvMonth">
+          <h3>+2.4%</h3>
+          <p>from last month</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="expenses.js"></script>
+</body>
+</html>
