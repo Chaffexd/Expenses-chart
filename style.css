@@ -158,3 +158,20 @@ body {
     background-color: var(--dark-brown);
     color: white;
 }
+
+@media only screen and (max-width: 460px) {
+    body {
+        width: 375px;
+    }
+    .container {
+    }
+    .balance {
+        width: 100%;
+    }
+    .chartContainer {
+        width: 100%;
+    }
+    .activeHover {
+        left: -12px;
+    }
+}
