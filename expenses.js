@@ -26,10 +26,6 @@ const day = new Date();
 let currentDay = fullWeek[day.getDay()];
 console.log(currentDay);
 
-// Get all bars
-const bars = document.getElementsByClassName("bar");
-
-
 // Grab the data from the JSON
 fetch("/data.json")
     .then(function(response) {
