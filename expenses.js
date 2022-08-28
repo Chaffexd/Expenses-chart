@@ -46,6 +46,7 @@ fetch("/data.json")
         bar5.style.height = ((data[4].amount) * 2.86 / 18) + "em";
         bar6.style.height = ((data[5].amount) * 2.86 / 18) + "em";
         bar7.style.height = ((data[6].amount) * 2.86 / 18) + "em";
+        
         // This gives the actual total spent in this week, hence different number
         const total = data[0].amount + data[1].amount  + data[2].amount  + data[3].amount  + data[4].amount  + data[5].amount  + data[6].amount;
         console.log(total);
